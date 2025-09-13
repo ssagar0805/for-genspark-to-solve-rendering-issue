@@ -20,13 +20,13 @@ else:
         # DON'T PUT WIDTH/HEIGHT HERE - it's not supported!
     )
 
-def render_truthlens_app(key=None, width=1200, height=1000, **props):
+def render_truthlens_app(key=None, width=1400, height=1000, **props):
     """
     Render the complete TruthLens React frontend as a Streamlit component.
     
     Parameters:
     - key: Streamlit component key for state management
-    - width: Component width in pixels (default: 1200)
+    - width: Component width in pixels (default: 1400)
     - height: Component height in pixels (default: 1000)
     - **props: Any data to pass to the React frontend
     
